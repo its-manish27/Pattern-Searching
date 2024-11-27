@@ -1,7 +1,7 @@
 import socket
 import json
 
-def client_request(filename, word, host='127.0.0.1', port=5001):
+def client_request(filename, word, host='127.0.0.1', port=8080):
 
     clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     clientSocket.connect((host, port))
